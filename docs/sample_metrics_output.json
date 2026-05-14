@@ -1,0 +1,262 @@
+{
+  "timestamp": "2026-05-09T21:53:57.470808+00:00",
+  "metrics": {
+    "agent_created_total": [
+      {
+        "labels": {},
+        "value": 3
+      }
+    ],
+    "agent_iterations_total": [
+      {
+        "labels": {
+          "agent_id": "agent_alzheimer"
+        },
+        "value": 5
+      },
+      {
+        "labels": {
+          "agent_id": "agent_diabetes"
+        },
+        "value": 4
+      },
+      {
+        "labels": {
+          "agent_id": "agent_cancer"
+        },
+        "value": 6
+      }
+    ],
+    "agent_errors_total": [
+      {
+        "labels": {
+          "agent_id": "agent_cancer"
+        },
+        "value": 1
+      }
+    ],
+    "agent_runtime_seconds": [
+      {
+        "labels": {
+          "agent_id": "agent_alzheimer"
+        },
+        "sum": 42.3,
+        "count": 1
+      },
+      {
+        "labels": {
+          "agent_id": "agent_diabetes"
+        },
+        "sum": 38.7,
+        "count": 1
+      },
+      {
+        "labels": {
+          "agent_id": "agent_cancer"
+        },
+        "sum": 55.1,
+        "count": 1
+      }
+    ],
+    "phase_transitions_total": [
+      {
+        "labels": {
+          "phase_from": "research",
+          "phase_to": "hypothesize"
+        },
+        "value": 3
+      },
+      {
+        "labels": {
+          "phase_from": "hypothesize",
+          "phase_to": "test"
+        },
+        "value": 3
+      },
+      {
+        "labels": {
+          "phase_from": "test",
+          "phase_to": "synthesize"
+        },
+        "value": 2
+      },
+      {
+        "labels": {
+          "phase_from": "test",
+          "phase_to": "research"
+        },
+        "value": 1
+      }
+    ],
+    "phase_duration_seconds": [
+      {
+        "labels": {
+          "phase": "research"
+        },
+        "sum": 22.5,
+        "count": 2
+      },
+      {
+        "labels": {
+          "phase": "hypothesize"
+        },
+        "sum": 8.9,
+        "count": 1
+      },
+      {
+        "labels": {
+          "phase": "test"
+        },
+        "sum": 15.3,
+        "count": 1
+      }
+    ],
+    "phase_tools_used_total": [
+      {
+        "labels": {
+          "phase": "research",
+          "tool_name": "research_scan_literature"
+        },
+        "value": 9
+      },
+      {
+        "labels": {
+          "phase": "hypothesize",
+          "tool_name": "hypothesize_propose_mechanism"
+        },
+        "value": 3
+      },
+      {
+        "labels": {
+          "phase": "hypothesize",
+          "tool_name": "hypothesize_rank_mechanism"
+        },
+        "value": 3
+      },
+      {
+        "labels": {
+          "phase": "test",
+          "tool_name": "test_run_in_silico_trial"
+        },
+        "value": 5
+      },
+      {
+        "labels": {
+          "phase": "test",
+          "tool_name": "test_run_safety_screen"
+        },
+        "value": 5
+      },
+      {
+        "labels": {
+          "phase": "synthesize",
+          "tool_name": "synthesize_generate_candidate_summary"
+        },
+        "value": 2
+      }
+    ],
+    "tool_calls_total": [
+      {
+        "labels": {
+          "tool_name": "research_scan_literature"
+        },
+        "value": 9
+      },
+      {
+        "labels": {
+          "tool_name": "transition_phase"
+        },
+        "value": 9
+      },
+      {
+        "labels": {
+          "tool_name": "read_file"
+        },
+        "value": 14
+      },
+      {
+        "labels": {
+          "tool_name": "write_file"
+        },
+        "value": 6
+      }
+    ],
+    "tool_errors_total": [
+      {
+        "labels": {
+          "tool_name": "read_file"
+        },
+        "value": 1
+      }
+    ],
+    "tool_duration_seconds": [
+      {
+        "labels": {
+          "tool_name": "research_scan_literature"
+        },
+        "sum": 1.82,
+        "count": 1
+      },
+      {
+        "labels": {
+          "tool_name": "transition_phase"
+        },
+        "sum": 3.41,
+        "count": 1
+      },
+      {
+        "labels": {
+          "tool_name": "read_file"
+        },
+        "sum": 0.003,
+        "count": 1
+      },
+      {
+        "labels": {
+          "tool_name": "write_file"
+        },
+        "sum": 0.004,
+        "count": 1
+      }
+    ],
+    "llm_calls_total": [
+      {
+        "labels": {},
+        "value": 45
+      }
+    ],
+    "llm_tokens_used": [
+      {
+        "labels": {
+          "model": "claude-3-5-sonnet"
+        },
+        "value": 128400.0
+      }
+    ],
+    "llm_duration_seconds": [
+      {
+        "labels": {},
+        "sum": 4.01,
+        "count": 2
+      }
+    ],
+    "llm_errors_total": [
+      {
+        "labels": {},
+        "value": 2
+      }
+    ],
+    "active_agents": [
+      {
+        "labels": {},
+        "value": 0.0
+      }
+    ],
+    "cache_disk_usage_bytes": [
+      {
+        "labels": {},
+        "value": 2457600.0
+      }
+    ]
+  }
+}
